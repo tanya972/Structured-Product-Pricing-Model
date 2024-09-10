@@ -42,7 +42,7 @@ def structured_product_pricing(S0, CouponRate, CouponBarrierPercent, KnockInBarr
             
             # If autocall condition is met at a coupon observation date, redeem early
             if i in CouponDates and ST[j, i] >= AutocallBarrier:
-                print("AUTOCALLED:", ST[j,i])
+                #print("AUTOCALLED:", ST[j,i])
                 option_values[j, i] = S0 + accrued_coupons[j, i]  # Pay back initial investment plus accrued coupons
             else:
                 exercise_value = accrued_coupons[j, i] + option_values[j, i]

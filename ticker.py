@@ -1,1 +1,1 @@
-ticker = 'AAPL'
+ticker = 'GBTC'
