@@ -1,6 +1,6 @@
 # Structured-Product-Pricing-Model
 
-Models structured product pricing with Autocall, coupon and KnockInBarrier using Cox-Ross-Rubenstein model, inputting implied volatility derived from linear regression model.
+Models structured product pricing and payout with Autocall, coupon and KnockInBarrier using Cox-Ross-Rubenstein model, inputting implied volatility derived from linear regression model.
 
 # Sample Usage
 Take ticker GBTC (Grayscale Bitcoin Trust). With parameters for the product as below, the average payoff at each timestep is shown below. We see it provides consistent payoff compared to the underlying asset.   
@@ -17,4 +17,6 @@ sigma = 89.73 # Predicted Implied volatility of GBTC over 2.5 years
 ```
 
 ![image](https://github.com/user-attachments/assets/00d8a9ff-786c-44b4-92d0-1be9e57b7868)
+
+The initial value of the structured product is printed to console: in this case with initial underlying asset price $25.51, the product is priced at $25.59.
 
