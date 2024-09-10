@@ -1,6 +1,6 @@
 # Structured-Product-Pricing-Model
 
-Models structured product pricing and payout with Autocall, coupon and KnockInBarrier using Cox-Ross-Rubenstein model, inputting implied volatility derived from linear regression model.
+Models structured product pricing and payout with Autocall, Coupon Barrier and Knock-in Barrier using Cox-Ross-Rubenstein model, inputting implied volatility derived from linear regression model.
 
 # Sample Usage
 Take ticker GBTC (Grayscale Bitcoin Trust). With parameters for the product as below, the average payoff at each timestep is shown below. We see it provides consistent payoff compared to the underlying asset.   
